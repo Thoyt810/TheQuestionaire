@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <header> View Highscores </header>
+    <header class= "highscores" > <a href="highscore.html">View Highscores</a></header>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <p id = "timer"></p>
 </head>
 <body>
-    <h1> Coding Quiz Challenge</h1>
-    <h2> The goal is to answer as many questions as you possibly can in the alloted amount of time. Choose which answer you feel like works best! Keep in mind wrong answers will penalize you 10 seconds! </h2>
-    <div class = "button" >
-
-
+    <div id = "container">
+        <h1> Coding Quiz Challenge</h1>
+        <h2> The goal is to answer as many questions as you possibly can in the alloted amount of time. Choose which answer you feel like works best! Keep in mind wrong answers will penalize you 10 seconds! </h2>
+        <div>
+            <button class = "startButton"><H4>Click to start</H4></button>
+        </div>
     </div>
+
+    <div id = "questions">
+        <ol id = "questionsHere">
+            <li id = "option1" ></li>
+            <li id = "option2" ></li>
+            <li id = "option3" ></li>
+            <li id = "option4" ></li>
+        </ol>
+    </div>
+
+    <script src="java.js">
+
+    </script>
+
 
     
 </body>
