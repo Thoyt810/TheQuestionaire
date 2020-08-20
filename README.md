@@ -1,2 +1,13 @@
-# TheQuestionaire
-The questionaire is designed to intergrate questions and the focus on our use of javascript nad interacting with the API. from using jaavascript and the its main interaction with the pages html, we can make as many questions loop through. Working on having multiple pushes instead of all the work i do on one push.
+# code-quiz
+
+Code quiz is designed to test the Users knowledge of computer programming
+
+First the user will be shown a template to initiate the quiz
+
+WHEN the user clicks the start button
+
+THEN the quiz will start going through a list of questions
+
+WHEN a user answers a question correectly, they will be shown the next
+
+WHEN finished the user will be shown the recent highscores of the attempts
